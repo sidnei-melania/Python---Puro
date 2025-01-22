@@ -12,3 +12,4 @@ source venv/bin/activate
 venv\Scripts\Activate
 # Caso algum comando retorne um erro de permissão execute o código e tente novamente:
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+# Python Puro
