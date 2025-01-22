@@ -1,6 +1,6 @@
 def add_subscription(self):
- empresa = input('Empresa: ')
- site = input('Site: ')
+ empresa = input('Empresa'): 
+ site = input('Site'):
  data_assinatura = datetime.strptime(input('Data de assinatura: '), '%d/%m/%Y')
  valor = Decimal(input('Valor: '))
  subscription = Subscription(empresa=empresa, site=site, data_assinatura=data_assinatura, valor=valor)
