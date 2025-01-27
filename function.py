@@ -4,7 +4,7 @@ def add_subscription(self):
  site = input('Site'):
  data_assinatura = datetime.strptime(input('Data de assinatura: '), '%d/%m/%Y')
  valor = Decimal(input('Valor: '))
- subscription = Subscription(empresa=empresa, site=site, data_assinatura=data_assinatura, valor=valor)
+ subscription = Subscription(empresa=empresa, site = site, data_assinatura = data_assinatura, valor=valor)
  self.subscription_service.create(subscription)
  print('Assinatura adicionada com sucesso.')
 
