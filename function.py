@@ -14,12 +14,12 @@ def delete_subscription(self):
  print('Escolha qual assinatura deseja excluir')
  for i in subscriptions:
  print(f'[{i.id}] -> {i.empresa}')
- choice = int(input('Escolha a assinatura: '))
+ choice = int(input('Escolha a assinatura: ' ))
  self.subscription_service.delete(choice)
- print('Assinatura excluída com sucesso.')
+ print('Assinatura excluída com sucesso.' )
 
 def total_value(self):
- print(f'Seu valor total mensal em assinaturas: {self.subscription_service.total_value()}')
+ print(f'Seu valor total mensal em assinaturas: {self.subscription_service.total_value()}' )
 
 def start(self):
  
