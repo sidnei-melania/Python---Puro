@@ -1,6 +1,6 @@
 Primeiro devemos criar o ambiente virtual:
 
-# Criar
+# Criar conexão com Vscode
 
 # Linux
 python3 -m venv venv
