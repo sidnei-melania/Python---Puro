@@ -34,12 +34,16 @@ def start(self):
      choice = int(input('Escolha uma opção: '))
      if choice == 1:
         self.add_subscription()
+      
      elif choice == 2:
             self.delete_subscription()
+      
      elif choice == 3:
             self.total_value()
+      
      elif choice == 4:
             self.subscription_service.gen_chart()
+      
      else:
 
         break
