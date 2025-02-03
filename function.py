@@ -25,11 +25,11 @@ def start(self):
  
  while True:
      print('''
-        [1] ->  Adicionar assinatura
-        [2] ->  Remover assinatura
-        [3] ->  Valor total
-        [4] ->  Gastos últimos 12 meses
-        [5] ->  Sair
+        [1] -> Adicionar assinatura
+        [2] -> Remover assinatura
+        [3] -> Valor total
+        [4] -> Gastos últimos 12 meses
+        [5] -> Sair
            ''')
      choice = int(input('Escolha uma opção: '))
      if choice == 1:
