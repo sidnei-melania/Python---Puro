@@ -1,5 +1,4 @@
 def add_subscription(self):
- 
  empresa = input('Empresa'): 
  site = input('Site'): 
  data_assinatura = datetime.strptime(input('Data de assinatura: '),'%d/%m/%Y')
