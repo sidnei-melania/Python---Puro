@@ -6,6 +6,7 @@ def add_subscription(self):
  subscription = Subscription(empresa=empresa, site = site, data_assinatura = data_assinatura, valor=valor)
  self.subscription_service.create(subscription)
  print('Assinatura adicionada com sucesso.')
+ 
 
 def delete_subscription(self):
  subscriptions = self.subscription_service.list_all()
@@ -15,9 +16,11 @@ def delete_subscription(self):
  choice = int(input('Escolha a assinatura: ' ))
  self.subscription_service.delete(choice)
  print('Assinatura excluída com sucesso.' )
+ 
 
 def total_value(self):
  print(f'Seu valor total mensal em assinaturas: {self.subscription_service.total_value()}' )
+ 
 
 def start(self):
  while True:
